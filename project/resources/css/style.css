@@ -1,0 +1,44 @@
+html {
+    font-size: 14px;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+    background-color: rgb(255, 242, 242);
+    color: rgb(74, 74, 74);
+    line-height: 1.5rem;
+}
+
+h1,
+h2 {
+    font-weight: bold;
+    color: rgb(32, 64, 86);
+    padding-top: 2rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.container {
+    padding: 5.25rem 0;
+    display: flex;
+}
+
+.instructions {
+    padding-bottom: 2rem;
+}
+
+#game {
+    display: flex
+    flex-direction: row;
+}
+
+.card {
+    display: inline-block;
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: .25rem;
+    margin: .1rem;
+    background-color: rgb(32, 64, 86);
+}
